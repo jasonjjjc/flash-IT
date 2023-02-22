@@ -28,8 +28,8 @@ This project definitely showed that I lacked a complete understanding of JSON an
 
 ## Longed For
 
-I would have liked to have a larger database of questions and answers but the time constraints restricted us significantly.
+I would have liked to have a larger database of questions and answers but the time constraints restricted us significantly. It takes a lot longer than expected to find good interview question resources and then to choose questions with answers that were short enough to fit on a flash card - demonstrating the value of our site even more.
 
 
 
-I hope you enjoy using the app!
+I hope you enjoy using the site!
