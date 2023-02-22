@@ -1,0 +1,15 @@
+
+  #answer {
+    text-align: center;
+  }
+
+  #paragraph {
+    display : flex;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
