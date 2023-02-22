@@ -28,7 +28,7 @@ This project definitely showed that I lacked a complete understanding of JSON an
 
 Longed For
 
-I would have liked to have a larger database of question and answers but the time constraints restricted us significantly.
+I would have liked to have a larger database of questions and answers but the time constraints restricted us significantly.
 
 
 
