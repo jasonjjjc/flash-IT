@@ -1,57 +1,34 @@
-Refactoring PLAN
+Welcome to Flash-IT!! 
 
-1. Inside the nextClick fn
+Time to complete : 5 days
+Team Members : 4
 
-Comment out line 77, which is an array with 2 values inside: Technical and Behavioural
 
-Line 78, change arr.length to data.length
+Summary 
 
-FROM THIS
-//let arr = ["Technical", "Behavioural"];
-//let chosen = arr[Math.floor(Math.random() * arr.length)];
-//const result = data.filter((object) => object.subject === chosen);
+This is the world's first ever dedicated tech interview flash card app. It gives users a quick and fun way to access many example questions that have been gathered from tech interview websites. The extremely simple UI gives it instant appeal, the colour scheme is deliberately reminiscent of Codewars with its bright greens, yellows and reds, so users will instantly feel familiarity and joy from using the site.
 
-=> TO THIS const index = Math.floor(Math.random() \* data.length);
-let resultObject = data[index];
-setRandomQA(resultObject);
+Liked
 
-2. Changed the state flip to flipped
+This was the first time I created something using React components. I have to say I did not like React in the beginning because it seemed like a long way around doing things I was able to do using Vanilla javascript, but once I understood the complexity that such a simple app can develop, I realised the benefit of using React to separate concerns. 
 
-3. Changed the flipIt name to flipAnswerCard
+The api fetch request was relatively straightforward as I had done a couple of other projects calling APIs before. This was, however, the first time that I had used React useEffect to fetch API data on page load and then used usestate to store the data for use on the page. The combination of useEffect and useState hooks is a very powerful tool that I want to deploy to create a few more projects once the bootcamp is over.
 
-4. Inside navClick fn
+Finally, I really enjoyed working with my teammates to create a unique experience through CSS to make a UI that was so simple and attractive that we have enjoyed using it even after the project was complete. 
 
-FROM THIS
-// const result = data.filter(
-// (object) =>
-// object.subject === "Technical" || object.subject === "Behavioural"
-// );
+Learnt
 
-=> TO THIS const index = Math.floor(Math.random() \* data.length);
-let resultObject = data[index];
+I particularly enjoyed learning about React because for the first time I was truly being challenged to learn something that I found difficult to grasp and I was proud of the way I managed to keep going until I fully understood the hooks in use. I enjoyed the journey from dread and fear to competence and enjoyment where people were asking me for help. And there's no better feeling than having people ask me for help!
 
-5. We create another function that returns a random data object from any array passed to it, so we can call it wherever we need it
+Lacked 
 
-FROM THIS TWO LINES REPEATED TWICE
-// let randomDataObject = data[Math.floor(Math.random() * data.length)];
+This project definitely showed that I lacked a complete understanding of JSON and using Postman to full effect to send fetch requests to all RESTful API CRUD routes. I did not get around to adding functionality for adding custom questions and answers because we spent so long struggling with getting post requests to work - I will definitely be putting myself forward for the back-end role on the next project to improve my learning in this area.
 
-// let randomResultObject = data[Math.floor(Math.random() * result.length)];
 
-TO THIS function getRandomObject(dataArr) {
-return dataArr[Math.floor(Math.random() * dataArr.length)];
-}
+Longed For
 
-6. Created a function that takes in 2 arguments dataArr and subject, which is going to filter the data inside the array and return a object with a specific subject
+I would have liked to have a larger database of question and answers but the time constraints restricted us significantly.
 
-FROM THIS
-Line 66 // const resultArr = data.filter((object) => object.subject === subject);
 
-Line 82 //const resultArr data.filter( (object) => object.subject === subjectState);
 
-TO THIS =>  
-function filterArrBySubject(dataArr, subject) {
-return dataArr.filter((object) => object.subject === subject);
-}
-const resultArr = filterArrBySubject(data, subject); LINE 66
-const resultArr = filterArrBySubject(data, subjectState); line 82
-# flash-IT
+I hope you enjoy using the app!
