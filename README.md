@@ -25,7 +25,7 @@ I particularly enjoyed learning about React because for the first time I was tru
 
 This project definitely showed that I lacked a complete understanding of JSON and using Postman to full effect to send fetch requests to all RESTful API CRUD routes. I did not get around to adding functionality for adding custom questions and answers because we spent so long struggling with getting post requests to work - I will definitely be putting myself forward for the back-end role on the next project to improve my learning in this area. 
 
-# NB. You have to give the API quite a while to fetch the data when the page loads. Clicking the buttons for the first 30 seconds or so always results in console errors. We never got round to fixing this bug but I will come back to it when I get some spare time - perhaps by reducing the number of questions and answers fetched on page load, or having a large selection of questions hard-coded in the app for people to study until the fetch response has been received.
+# NB. You have to give the API quite a while to fetch the data when the page loads. Clicking the buttons for the first 10 seconds or so always results in console errors. We never got round to fixing this bug but I will come back to it when I get some spare time - perhaps by reducing the number of questions and answers fetched on page load, or having a large selection of questions hard-coded in the app for people to study until the fetch response has been received.
 
 
 ## Longed For
